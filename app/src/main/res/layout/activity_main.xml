@@ -1,18 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/Grid"
     android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="3"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imagen1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/icon"/>
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imagen2"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/icon3"/>
+    <ImageView
+        android:id="@+id/imagen3"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/icon4"/>
+    <ImageView
+        android:id="@+id/imagen4"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/icon5"/>
+    <ImageView
+        android:id="@+id/imagen5"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/icon6"/>
+    <ImageView
+        android:id="@+id/imagen6"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/icon7"/>
+    <ImageView
+        android:id="@+id/imagen7"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/icon1"/>
+
+    <ImageView
+        android:id="@+id/imagen8"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/icon3"/>
+    <ImageView
+        android:id="@+id/imagen9"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/icon4"/>
+
+</GridLayout>
